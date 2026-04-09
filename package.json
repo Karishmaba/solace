@@ -1,0 +1,36 @@
+{
+  "name": "solace",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "server": "node server.js",
+    "build": "expo export --platform web"
+  },
+  "dependencies": {
+    "@matrix-org/olm": "^3.2.15",
+    "@react-native-async-storage/async-storage": "^3.0.1",
+    "expo": "~55.0.6",
+    "expo-calendar": "~55.0.9",
+    "expo-haptics": "~55.0.8",
+    "expo-secure-store": "~55.0.8",
+    "expo-status-bar": "~55.0.4",
+    "express": "^5.2.1",
+    "matrix-js-sdk": "^41.1.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-web": "^0.21.0",
+    "ws": "^8.20.0",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/react": "~19.2.2",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
